@@ -517,6 +517,14 @@ body {
         max-width: 960px;
     }
 
+    .contacts-content {
+        max-height: 100%;
+    }
+
+    .text-content .bottom-layer{
+        margin-bottom: 20px;
+    }
+
     .block-with-blocks {
         display: none;
     }

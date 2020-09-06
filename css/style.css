@@ -99,7 +99,8 @@ body {
     filter: brightness(1.25);
 }
 
-.btn:after {
+.btn:after,
+.btn:before {
     content: '';
     position: absolute;
     top: 0;

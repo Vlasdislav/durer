@@ -297,6 +297,7 @@ body {
 }
 
 .contacts-content {
+    max-height: 400px;
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
@@ -310,9 +311,6 @@ body {
 }
 
 .text-content-1 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
     padding: 50px 45px;
 }
 
@@ -336,15 +334,23 @@ body {
     text-decoration: none;
 }
 
+.text-content-1 .block-contact-address:last-child {
+    margin-bottom: 0;
+}
+
 .pointer {
     margin-right: 11px;
 }
 
 .text-content-2 {
+    padding: 56px 60px;
+}
+
+.text-content {
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 56px 60px;
+    padding-bottom: 0;
 }
 
 .text-content-2 .block-contact-title {
@@ -395,7 +401,7 @@ body {
 
 .block-3 {
     border-top: 2px solid #E6E6EC;
-    padding-bottom: 200%;
+    padding-bottom: 100%;
 }
 
 .pair-blocks {

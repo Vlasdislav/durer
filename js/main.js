@@ -62,7 +62,7 @@ const createCardFacadeFasteners = (data) => {
                 <img class="card-pic" src="${image}" alt="img">
                 <div class="about">
                     <span class="card-title">${name}</span>
-                    <span class="card-description">${description} </span>
+                    <span class="card-description">${description}</span>
                 </div>
             </div>
             <!-- /.card -->
@@ -93,7 +93,7 @@ const createCardBrackets = (data) => {
                 <img class="card-pic" src="${image}" alt="img">
                 <div class="about">
                     <span class="card-title">${name}</span>
-                    <span class="card-description">${description} </span>
+                    <span class="card-description">${description}</span>
                 </div>
             </div>
             <!-- /.card -->
@@ -124,7 +124,7 @@ const createCardFastenersAccordingToDrawings = (data) => {
                 <img class="card-pic" src="${image}" alt="img">
                 <div class="about">
                     <span class="card-title">${name}</span>
-                    <span class="card-description">${description} </span>
+                    <span class="card-description">${description}</span>
                 </div>
             </div>
             <!-- /.card -->
